@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Members List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:  antiquewhite; /* Background color in purple */
+            color: Black; /* Text color in orange */
+            justify-content: center;
+        }
+        
+        .container {
+            max-width: 1500px;
+            margin: 80px auto;
+            padding: 20px;
+            background-color:beige;
+            border-radius: 2px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex-flow: wrap;
+        }
+        
+        h1 {
+            text-align: center;
+            color:darkorange;
+            text-decoration-color:blueviolet;
+            font-display: fallback;
+            font-size: 70px;
+            font-family:cursive;
+        }                
+        
+        h2,h3,h4 {
+            text-align: center;
+            color:darkslategrey;
+            text-decoration-color: beige;
+            font-size: 40px;
+            font-display: block;
+           font-style: oblique;
+            
+            
+        }
+        h5,h6 {
+            text-align: center;
+            color:blueviolet;
+            text-decoration-color: beige;
+            font-size: 40px;
+            font-display: block;
+            text-decoration-style: dashed;
+            
+            
+        }
+        h7,h8 {
+            text-align: center;
+            color:blueviolet;
+            text-decoration-color: beige;
+            font-size: 25px;
+            font-display: block;
+            text-decoration-style: dashed;
+        }
+            
+        .company-name {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-size: 40px;
+            font-weight: bold;
+            font-stretch:ultra-expanded;
+            font-synthesis: weight;
+            font-family:monospace;
+        }
+
+        .line {
+            border-top: 1px solid orange;
+            margin-bottom: 20px;
+        }
+        .row{
+            display:flex;
+            text-align:center;
+            justify-content: space-between;
+        }
+        
+        .member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .img {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            margin-right: 20px;
+            margin:50px auto;
+            justify-content:space-between;
+            padding: inherit;
+            margin:5px;
+            flex-flow: wrap;
+        }
+        
+        .member-info {
+            flex-grow: 1;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .img {
+                width: 20px;
+                height: 20px;
+                justify-content: space-between;
+                padding: inherit;
+            margin:5px;
+        
+            }
+            
+             
+            }  
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>ByteForge</h1>
+        <p style="font-size: 20px">Welcome to Byteforge, where innovation meets expertise to shape tomorrow's digital landscape. As a leading IT company, Byteforge is dedicated to crafting cutting-edge solutions that propel businesses into the future. With a fusion of technical mastery and creative vision, we forge pathways to success in the digital realm. get to know the individuals who make our company thrive. </p>
+        <div class="line"></div>
+        <div class="company-name">Meet Our Team</div>
+        <h5>Leadership/Managment Team</h5>
+        <div class="row">
+        <div class="col">
+            <img width="250px"  src="girl.jpeg" alt="Suni"  >
+                <h2>Zoya Farhan</h2>
+                <p style="font-size: 20px">Founder/CEO</p>
+            </div>
+        
+        <div class="col">
+            <img width="250px"  src="boy.jpeg" alt="Suni" >
+                <h2>Pranah Prathab</h2>
+                <p style="font-size: 20px">Founder/CEO</p>
+            </div>
+        
+        <div class="col">
+        <img width="250px" src="boy.jpeg" alt="Vivek">
+                <h2>Varun Dharna</h2>
+                <p style="font-size: 20px">Founder/CEO</p>
+            </div>
+        </div>
+         <!-- Add more members as needed -->
+      <div class="row">
+        <div class="col">
+            <img width="250px" src="boy.jpeg" alt="Suni">
+                <h2>Vivek Sasi</h2>
+                <p style="font-size: 20px">VP,Development and Growth</p>
+            </div>
+        
+        <div class="col">
+        <img width="250px" src="girl.jpeg" alt="Vivek">
+                <h2>Leena Mathew</h2>
+                <p style="font-size: 20px">VP,Sales and Marketing</p>
+            </div>
+          <div class="col">
+        <img  width="250px" src="boy.jpeg" alt="Vivek">
+                <h2>Santhosh Dev</h2>
+                <p style="font-size: 20px">VP,Finance and Operation</p>
+            </div>
+          </div>
+        
+        
+        <h6>Development Team</h6>
+        <div class="row">
+        <div class="col">
+            <img width="250px"  src="boy.jpeg" alt="Suni">
+                <h2>Rahan Roy</h2>
+                <p style="font-size: 20px" >Team Lead,SE</p>
+            </div>
+        
+        <div class="col">
+        <img  width="250px" src="girl.jpeg" alt="Vivek">
+                <h2>Marie Jhon</h2>
+                <p style="font-size: 20px">Software Engineer</p>
+            </div>
+        <div class="col">
+            <img width="250px"  src="girl.jpeg" alt="Suni">
+                <h2>Reenu Philip</h2>
+                <p style="font-size: 20px">Software Engineer</p>
+            </div>
+        
+        
+        <!-- Add more members as needed -->
+        <div class="col">
+        <img width="250px" src="boy.jpeg" alt="Vivek">
+                <h2>Sagar Varma</h2>
+                <p style="font-size: 20px">Software Engineer</p>
+            </div>
+        </div>
+      <div class="row">
+        <div class="col">
+            <img width="250px" src="girl.jpeg" alt="Suni">
+                <h2>Dilsha Rahim</h2>
+                <p style="font-size: 20px">Software Engineer</p>
+            </div>
+        
+        <div class="col">
+        <img width="250px" src="boy.jpeg" alt="Vivek">
+                <h2>Abhishek Suresh</h2>
+                <p style="font-size: 20px">Software Engineer</p>
+            </div>
+          <div class="col">
+        <img  width="250px" src="boy.jpeg" alt="Vivek">
+                <h2>Ranveer Mohan</h2>
+                <p style="font-size: 20px">Software Engineer</p>
+            </div>
+          </div>
+        
+        <h7> Sales and Marketing Team </h7>
+        <div class="row">
+        <div class="col">
+            <img width="250px"  src="boy.jpeg" alt="Suni">
+                <h2>Sharon Joseph</h2>
+                <p style="font-size: 20px">Team Lead,Sales officer</p>
+            </div>
+        
+        <div class="col">
+        <img  width="250px" src="girl.jpeg" alt="Vivek">
+                <h2>Fathima Roohi</h2>
+                <p style="font-size: 20px">Sales officer</p>
+            </div>
+        <div class="col">
+            <img width="250px"  src="boy.jpeg" alt="Suni">
+                <h2>Abdul Fahim</h2>
+                <p style="font-size: 20px">Sales officer</p>
+            </div>
+        <div class="col">
+        <img width="250px" src="girl.jpeg" alt="Vivek">
+                <h2>Neha Thambi</h2>
+                <p style="font-size: 20px">Sales officer</p>
+            </div>
+        </div>
+      <div class="row">
+        <div class="col">
+            <img width="250px" src="girl.jpeg" alt="Suni" >
+                <h2>Sinha Misra</h2>
+                <p style="font-size: 20px">Marketing Officer</p>
+            </div>
+        <div class="col">
+            <img width="250px"  src="boy.jpeg" alt="Suni">
+                <h2>Devan Raj</h2>
+                <p style="font-size: 20px">Marketing Officer</p>
+            </div>
+        <div class="col">
+        <img width="250px" src="girl.jpeg" alt="Vivek">
+                <h2>Minakshi Krishnan</h2>
+                <p style="font-size: 20px">Marketing Officer</p>
+            </div>
+          </div>
+                 </div>
+ 
+</body>
+</html>
